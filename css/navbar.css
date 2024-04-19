@@ -1,0 +1,58 @@
+ Navbar styles
+.navbar {
+    background-color: #ffffff;     /* Set background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+
+  .nav-item-color {
+    color:#fdf5f5;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Set font size for the brand */
+  }
+  
+  .navbar-toggler-icon {
+    border-color: #007bff; /* Set color for the toggler icon */
+  }
+  
+  .navbar-toggler {
+    border-color: #007bff; /* Set border color for the toggler button */
+  }
+  
+  /* Navbar link styles */
+  .navbar-nav .nav-link {
+    color: hsl(212, 100%, 97%); /* Set text color for nav links */
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #0056b3; /* Set hover and active styles for nav links */
+  }
+  
+  /* Navbar dropdown styles */
+  .navbar-nav .dropdown-menu {
+    background-color: #ffffff; /* Set background color for the dropdown menu */
+  }
+  
+
+  .dropdown-menu a[href="login.html"],
+  .dropdown-menu a[href="signup.html"] {
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      color:hsl(0, 0%, 0%);
+  }
+
+  
+  .navbar-nav .dropdown-item:hover {
+    background-color: #f8f9fa; /* Set background color on hover for dropdown items */
+  }
+  
+  /* Search form styles */
+  .navbar form {
+    margin-right: 10px; /* Add some margin to the right of the form */
+  }
+  .nav-right {
+    float: left;
+  }
+  
